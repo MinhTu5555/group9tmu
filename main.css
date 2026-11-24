@@ -1,0 +1,62 @@
+html {
+  height: 100%;
+}
+ 
+main {
+  background-color:white;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+ 
+h1{
+  font-size:16px;
+  text-align:center;
+  background:#CCC
+}
+ 
+h2 {
+  font-size:14px;
+}
+ 
+ul{
+  list-style-type:none
+}
+ 
+#products{
+  background-color:#E1E1E1;
+  border-right:1px dashed #CCC;
+  max-width:350px;
+  height:100%;
+  float:left;
+}
+ 
+#products img{
+  width:100px;
+  float:left;
+}
+ 
+#products span.productLabel{
+  font-size:14px;
+}
+#products span.productPrice{
+  font-size:14px;
+  font-weight:bold;
+}
+#products a{
+  text-decoration:none;
+  color: gray;
+  font-weight:bold;
+  font-size:16px;
+  border:1px solid #CCC;
+  padding:2px;
+}
+ 
+#products li{
+  background-color:#DADADA;
+  margin-top:3px;
+  margin-bottom:3px;
+  height:150px;
+}
+ 
+#products div{
+  padding-top:15px;
+}
